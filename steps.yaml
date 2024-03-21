@@ -1,0 +1,10 @@
+steps:
+  - change_audio_tempo: 1.0 -> 1.24
+  - change_audio_pitch: +12.44 semi‑tones
+  - mix_highpitch_with_original: dry: -3dB, wet: -9dB
+  - start_kdenlive_project: 720p 25fps
+  - load_input_video_and_speed_up: 124%
+  - mix_with_output_audio
+  - add some video filters
+  - render
+  - c'est fini.
